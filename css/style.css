@@ -1,0 +1,379 @@
+html,body{
+	height: 100%;
+}
+.swiper-container{
+	height: 100%;
+}
+.swiper-slide{
+	height: 100%;
+	/*display: none;*/
+}
+
+/*Slide1*/
+.slide1{
+	background: url(../img/1-bg.jpg) 0 0 no-repeat;
+	background-size: cover;
+	/*display: none;*/
+	position: relative;
+}
+.slide2{
+	display: block;
+}
+.slide1 h2{
+	margin-top: 27%;
+	text-align: center;
+}
+.slide1 h2 img{
+	width: 70%;
+}
+.slide1 h3{
+	text-align: center;
+	margin-top: 10%;
+}
+.slide1 h3 img{
+	width:70%;
+}
+.slide1 h4{
+	position: absolute;
+	top: 0;
+}
+
+/*Slide2*/
+.slide2{
+	background: url(../img/bj-2.png) 0 0 no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.slide2 h2{
+	position: absolute;
+	top:20%;
+	z-index: 1;
+	text-align: center;
+}
+.slide2 h2 img{
+	width: 90%;
+    box-shadow: 0 0 40px 5px #999;
+}
+.slide2 h3{
+	position: absolute;
+	top: 20%;
+	z-index: 2;
+	text-align: center;
+}
+.slide2 h3 img{
+	width: 90%;
+}
+.slide2 .items{
+	position: absolute;
+	bottom: 15%;
+	left: 7.5%;
+	width: 316px;
+	height: 60px;
+}
+.slide2 .item{
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: "黑体";
+    box-shadow: 0 0 30px 5px #000;
+}
+
+.slide2 .item:before{
+	content:"";
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    position: absolute;
+    left: 0px;
+    top: -30px;
+}
+.slide2 .item:after{
+	content:"";
+	border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+}
+.slide2 .item1{
+   -webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+   -webkit-animation: s 1.5s 6s ease-out;
+	background-color: #675aa0;
+	position: absolute;
+}
+.slide2 .item2{
+	-webkit-animation: s 1.5s 6.5s ease-out;
+	background-color: #ffb700;
+	position: absolute;
+	/*float: left;*/
+    left: 55px;
+    top: -95px;
+}
+.slide2 .item3{
+	-webkit-animation: s 1.5s 7s ease-out;
+	background-color: #0096e3;
+	position: absolute;
+	/*float: left;*/
+	left: 110px;
+}
+.slide2 .item4{
+	-webkit-animation: s 1.5s 7.5s ease-out;
+	background-color: #ee534d;
+	position: absolute;
+	/*float: left;*/
+	left: 165px;
+	top: -95px;
+}
+.slide2 .item5{
+	-webkit-animation: s 1.5s 8s ease-out;
+	background-color: #1b2d57;
+	position: absolute;
+	/*float: left;*/
+	left: 220px;
+}
+.slide2 .item1:before{
+	border-bottom: 30px solid #675aa0;
+}
+.slide2 .item1:after{
+    border-top: 30px solid #675aa0;
+}
+.slide2 .item2:before{
+	border-bottom: 30px solid #ffb700;
+}
+.slide2 .item2:after{
+    border-top: 30px solid #ffb700;
+}
+.slide2 .item3:before{
+	border-bottom: 30px solid #0096e3;
+}
+.slide2 .item3:after{
+    border-top: 30px solid #0096e3;
+}
+.slide2 .item4:before{
+	border-bottom: 30px solid #ee534d;
+}
+.slide2 .item4:after{
+    border-top: 30px solid #ee534d;
+}
+.slide2 .item5:before{
+	border-bottom: 30px solid #1b2d57;
+}
+.slide2 .item5:after{
+    border-top: 30px solid #1b2d57;
+}
+
+/*Slide3*/
+.slide3{
+	background: url(../img/page3.jpg) 0 0 no-repeat;
+	background-size: cover;
+}
+
+/*Slide4*/
+.slide4{
+	background: url(../img/bj-4.png) 0 0 no-repeat;
+	background-size: cover;
+}
+.slide4 h2{
+    text-align: center;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: normal;
+    margin-top: 20%;
+}
+.slide4 h3{
+	margin-top: 35%;
+	text-align: center;
+}
+.slide4 h3 img{
+	width: 80%;
+}
+
+/*Slide5*/
+.slide5,.slide6,.slide7,.slide8{
+	background: url(../img/9-bg.jpg) 0 0 no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.slide5 h2,.slide6 h2,.slide7 h2,.slide8 h2{
+	text-align: center;
+}
+.slide5 h2 img,.slide6 h2 img,.slide7 h2 img,.slide8 h2 img{
+	width: 55%;
+}
+.slide5 h3,.slide6 h3,.slide7 h3,.slide8 h3{
+	color: #fff;
+	/*text-align: center;*/
+	font-size: 1rem;
+	font-family: "微软雅黑";
+	width: 90%;
+	padding: 0.5%;
+	margin: 25% auto;
+	font-weight: normal;
+}
+.slide5 h4,.slide6 h4,.slide7 h4,.slide8 h4{
+	position: absolute;
+	top: 0;
+}
+
+/*Slide9*/
+.slide9,.slide10,.slide11,.slide13{
+	background: url(../img/9-bg.jpg) 0 0 no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.slide9 h2 img{
+	width: 100%;
+}
+.slide9 h3:first-child{
+	margin-top: 30%;
+}
+.slide9 h3{
+	text-align: center;
+}
+.slide9 h3 img{
+	width: 30%;
+	margin: 2% 4%;
+}
+.slide9 h4{
+	position: absolute;
+	top: 0;
+}
+
+/*Slide10*/
+.slide10{
+	position: relative;
+}
+.slide10 h2{
+	color: #fff;
+	font-size: 1.8rem;
+	font-weight: normal;
+	width: 85%;
+	margin: 15% auto;
+}
+.slide10 h3{
+	color: #fff;
+	font-size: 1rem;
+	font-weight: normal;
+	text-align: center;
+	padding: 0 7.5%;
+	font-family: "微软雅黑";
+}
+.slide10 h4{
+	margin-top: 15%;
+	text-align: center;
+}
+.slide10 h4 img{
+	width:85%;
+}
+.slide10 h6{
+	position: absolute;
+	top: 0;
+}
+/*Slide11*/
+.silde11 h2{
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+.slide11>h3:first-child{
+	margin-top: 10%;
+}
+.slide11 h2 img{
+	width: 100%;
+}
+.slide11 h3{
+	text-align: center;
+}
+.slide11 h3 img{
+	width: 43%;
+	margin: 1% 2%;
+}
+
+/*Slide12*/
+.slide12{
+	background: url(../img/page11.jpg) 0 0 no-repeat;
+	background-size: cover;
+}
+.slide12 h2{
+	text-align: center;
+}
+.slide12 .firstH{
+	margin-top: 38%;
+}
+.slide12 h2{
+	margin: -2% 0;
+}
+.slide12 h2 img{
+	width: 90%;
+}
+
+/*Slide13*/
+.slide13{
+	position: relative;
+}
+.slide13 h2{
+    text-align: center;
+    margin-top: 15%;
+}
+.slide13 h2 img{
+	width: 60%;
+}
+.slide13 .info{
+	text-align: left;
+	color: #fff;
+	font-size: 1.4rem;
+	font-family: arial;
+	margin-top: 15%;
+	text-indent: 1.8rem;
+}
+.slide13 h3{
+	color: #fff;
+	font-weight: normal;
+	margin-top: 10%;
+	text-indent: 1rem;
+}
+.slide13 h4{
+	text-align: center;
+	margin-top: 6%;
+	margin-left: 6%;
+}
+.slide13 h6{
+	text-align: center;
+	position: absolute;
+	top: 30%;
+}
+.slide13 h6 img{
+	width: 100%;
+}
+
+
+
+
+
+
+.swiper-slide h5{
+	position: absolute;
+	bottom: 0%;
+    width: 100%;
+    text-align: center;
+    -webkit-animation: arr 2s linear infinite
+}
+
+
+
+
+
+
+
+
+
+@keyframes arr{
+	0%{bottom:0%;opacity: 1}
+	100%{bottom:5%;opacity: 0}
+}
+@keyframes s{
+    0%{-webkit-transform:rotate(0deg);}
+    100%{-webkit-transform:rotate(360deg);}
+} 
